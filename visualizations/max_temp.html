@@ -6,12 +6,12 @@
     <title>Web Visualization Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
-        <a class="navbar-brand aaa" href="index.html">Latitude</a>
+        <a class="navbar-brand aaa" href="../index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,14 +25,14 @@
                         Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="visualizations/max_temp.html">Max Temperature</a>
-                        <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="visualizations/wind_speed.html">Wind Speed</a>
+                        <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="visualizations/comparison.html">Comparison</a>
+                    <a class="nav-link" href="comparison.html">Comparison</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Data</a>
@@ -48,28 +48,14 @@
 
             <div class="col-md-8">
                 <div class="thumnail">
-                    <h3>Summary: Latitudes vs. X</h3>
+                    <h3>Max Temperature</h3>
                     <br>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="assets/images/Fig1.png" class="img-fluid" alt="Responsive images">
-                        </div>
-                        <div class="col-md-6">
-                            <p>The purpose of this project was to analyze how weather changes as you get closer to the
-                                equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API
-                                to
-                                assemble a dataset on over 500 cities.</p>
-                            <p>
-                                After assembling the dataset, we used Matplotlib to plot various aspects of the weather
-                                vs.
-                                latitude. Factors we looked at included: temperature, cloudiness, wind speed, and
-                                humidity.
-                                This site provides the source data and visualizations created as part of the analysis,
-                                as
-                                well as explanations and descriptions of any trends and correlations witnessed.
-                            </p>
-                        </div>
-                    </div>
+                    <img src="../assets/images/Fig1.png" class="img-fluid" alt="Responsive images">
+
+                    <p> As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg.
+                        Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be
+                        warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth
+                        at the time of the year this data was gathered.</p>
                 </div>
             </div>
 
@@ -80,13 +66,13 @@
                     <br>
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="assets/images/Fig1.png" class="img-fluid" alt="Responsive images">
-                            <img src="assets/images/Fig3.png" class="img-fluid" alt="Responsive images">
+                            <img src="../assets/images/Fig1.png" class="img-fluid" alt="Responsive images">
+                            <img src="../assets/images/Fig3.png" class="img-fluid" alt="Responsive images">
                         </div>
 
                         <div class="col-md-6">
-                            <img src="assets/images/Fig2.png" class="img-fluid" alt="Responsive images">
-                            <img src="assets/images/Fig4.png" class="img-fluid" alt="Responsive images">
+                            <img src="../assets/images/Fig2.png" class="img-fluid" alt="Responsive images">
+                            <img src="../assets/images/Fig4.png" class="img-fluid" alt="Responsive images">
                         </div>
 
                     </div>
